@@ -1,12 +1,38 @@
-/**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
- */
 
-.wp-block-create-block-boilerplate {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+ul.wp-block-block-course-latest-posts-guten {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+
+	li {
+
+		img {
+			margin-bottom: 10px;
+		}
+
+		h5 {
+			font-size: 20px;
+			margin: 0 0 5px;
+			line-height: 1.4;
+
+			a {
+				color: #000;
+			}
+		}
+
+		time {
+			font-size: 13px;
+			color: #969696;
+		}
+
+		p {
+			margin: 15px 0 0;
+			color: #303030;
+			line-height: 1.6;
+			font-size: 15px;
+		}
+	}
 }
